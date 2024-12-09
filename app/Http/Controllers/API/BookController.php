@@ -61,7 +61,7 @@ class BookController extends Controller
         $book->update($request->all());
 
         return response()->json([
-            'message' => 'Bokk update successfully',
+            'message' => 'Book update successfully',
             'data' => $book,
         ], 200);
     }
